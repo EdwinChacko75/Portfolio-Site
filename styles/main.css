@@ -111,10 +111,11 @@ h1 span {
     width: 100%;
     transform: scaleX(-1);
     z-index: -2;
+    opacity: 0.7;
 }
 #projects-content {
     position: absolute;
-    top: 34%;
+    top: 30vw;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family:  'Source Sans Pro', sans-serif;
@@ -124,125 +125,176 @@ h1 span {
     background: rgb(33, 34, 33);
     background: rgba(33, 34, 33, 0.65);
 }
-    /* Link To Vault */
-#vault-portal {
-    position: absolute;
-    bottom: 12.5%;
-    left: 24%;
-    margin-right: 24%;
+
+/* Artifact 1 */
+#media {
+    position: relative;
+    margin: 10% 8% 10% 7%;
 }
-#vault-portal button {
-    border: #DDEDF4 solid 0.1995vw;
-    background-color: #44449B;
-    border-radius: 999px;
-}
-#vault-portal button a {
-    display: block;
-    color: #DDEDF4;
-    font-size: 2.3vw;
+#media-header {
+    font-size: 1.6625vw;
     font-family: 'Newsreader', serif;
-    padding: 1.995vw 2.99vw 1.995vw 2.99vw;
-    text-decoration: none;
-}
-#vault-portal button:hover {
-    border: #44449B solid 0.3325vw;
+    color: #212221;
     background-color: #DDEDF4;
-    border-radius: 999px;
-    transition: 200ms;
+    padding: 0.0665vw 3.99vw 0.0665vw 3.99vw;
+    width: fit-content;
+    margin-left: 7.1%;
+    border-radius: 1.33vw;
+    margin-bottom: 1%;
 }
-#vault-portal button a:hover {
-    color: #44449B;
+#media-content {
+    height: auto;
+    width: 39vw;
+    position: absolute;
+    top: 52vw;
+    border: #DDEDF4;
+    border-style: solid;
+    border-width: 0.1995vw;
+    border-radius: 1.33vw;
+    left: 55%;
+    right: 2%;
+    
 }
-/* Vault Page */
-/* Encryption Assignment Buttons */
-.buttons-2 {
-    font-size: 1.5295vw;
+#middle-child-video {
+    width: 39vw;
+    height: auto;
+    position: absolute;
+    top: 10vw;
+    left: 0%;
+    border: #DDEDF4;
+    border-style: solid;
+    border-width: 0.1995vw;
+    border-radius: 1.33vw;
+}
+#song-link {
+    text-decoration: none;
+    color: #DDEDF4;
+    position: absolute;
+    top: 32.22vw;
+    left: 1%;
+    padding: 0.3325vw 0.665vw 0.3325vw 0.665vw;
+}
+#artifact11img {
+    height: 25vw;
+    width: auto;
+    margin-left: 52%;
+    margin-top: 1%;
+    border: #DDEDF4 solid 0.3325vw;
+    border-radius: 1.33vw;
+}
+#artifact1img {
+    height: 45vw;
+    width: auto;
+    margin-right: 52%;
+    margin-top: 7%;
+    border: #DDEDF4 solid 0.3325vw;
+    border-radius: 1.33vw;
+}
+#artifact-link {
+    left: 56.5%;
+    text-decoration: none;
+    color: #DDEDF4;
+    position: absolute;
+    padding: 0.3325vw 0.665vw 0.3325vw 0.665vw;
+    top: 74.22vw
+}
+#song-link:hover, #artifact-link:hover {
+    color: #212221;
+    background-color: #DDEDF4;
+}
+/* Artifact 2 */
+/* Section 1.1 - Sports */
+#sports {
+    position: relative;
+    margin: 0% 8% 45% 7%;
+}
+#sports-header {
+    font-size: 1.6625vw;
     font-family: 'Newsreader', serif;
-    padding: 2% 5% 2% 5%;
-    color: #DDEDF4;
-    background-color: #1181B2;
-    border: #DDEDF4 solid 0.1995vw;
-    width: 15vw;
-    height: 5.8vw; 
+    color: #44449B;
+    background-color: #DDEDF4;
+    padding: 0.0665vw 3.99vw 0.0665vw 3.99vw;
+    width: fit-content;
+    margin-left: 7.1%;
+    margin-bottom: 3%;
+    border-radius: 1.33vw;
 }
-.buttons-2:hover {
-    cursor: pointer;
-    color: #DDEDF4;
-    background-color: #44449B;
-    border: #DDEDF4 solid 0.1995vw;
-    transition: 200ms;
-}
-#encrypt {
+#video {
+    width: 42vw;
+    height: auto;
     position: absolute;
-    left: 12.9vw;
-    top: 9.5vw;
-
+    left: -2%;
+    top: 15vw;
+    border: #DDEDF4;
+    border-style: solid;
+    border-width: 0.1995vw;
+    border-radius: 1.33vw;
 }
-#decrypt {
+#artifact2img {
+    width: 42vw;
+    height: auto;
     position: absolute;
-    right: 12.9vw;
-    top: 9.5vw;
+    right: -2%;
+    top: 14vw;
+    border: #DDEDF4;
+    border-style: solid;
+    border-width: 0.1995vw;
+    border-radius: 1.33vw;
+}
+#link2{
+    left: -0.3%;
+    text-decoration: none;
+    color: #DDEDF4;
+    position: absolute;
+    padding: 0.3325vw 0.665vw 0.3325vw 0.665vw;
+    top: 39.03vw;    
+}
+#link2:hover {
+    background-color: #DDEDF4;
+    color: #212221;
 }
 
-/* Button Assignment */
-.vault {
-    background-color: #44449B;
-}
-#button-assignment {
-    padding: 3% 5% 1% 5%;
+/* Artifact 3 */
+#other-container {
+    position: relative;
     text-align: center;
 }
-    /* Button Assignment Header */
-#button-header {
-    font-size: 1.33vw;
-    font-family: 'Newsreader', serif;
-    padding: 0.5% 0% 0.5% 0% ;
-    background-color: #1181B2;
-    color: #DDEDF4;
-    border: #DDEDF4 solid 0.1995vw;
-    margin: 0% 32.5% 4% 32.5%;
+#stock-background {
+    position: relative;
+    width: 100%;
 }
-.buttons {
-    font-size: 1.5295vw;
-    font-family: 'Newsreader', serif;
-    padding: 2% 5% 2% 5%;
+#link3 {
+    left: 27%;
+    text-decoration: none;
     color: #DDEDF4;
-    background-color: #212221;
-    border: #DDEDF4 solid 0.1995vw;
-    width: 20vw;
-    height: 5.8vw; 
-    margin: 4% 5% 4% 5%;
+    position: absolute;
+    padding: 0.3325vw 0.665vw 0.3325vw 0.665vw;
+    top: 53.22vw;    
 }
-    /* Button Hover Properties */
-.buttons:hover {
+#link3:hover {
+    background-color: #DDEDF4;
     color: #212221;
-    background: #DDEDF4;
-    border: #212221 solid 0.1995vw;
-    transition: 300ms;
-    cursor: pointer;
 }
-#answer-box {
+#other-header {
+    position: absolute;
+    margin-top: 10%;
+    left: 38%;
+    right: 38%;
+    z-index: 1;
     color: #212221;
-    background: #DDEDF4;
-    border: #212221 solid 0.1995vw;
-    height: fit-content;
+    background-color: #DDEDF4;
+    font-size: 1.6625vw;
+    font-family: 'Newsreader', serif;
 }
-#answer-box:hover {
-    color: #DDEDF4;
-    background-color: #212221;
-    border: #DDEDF4 solid 0.1995vw;
+#other-content {
+    position: absolute;
+    top: 37%;
+    left: 25%;
+    right: 22%;
+    font-size: 1.6625vw;
+    border: #DDEDF4;
+    border-style: solid;
+    border-width: 0.3325vw;
+    width: 50vw;
 }
-    /* Button Active Properties */
-.buttons.active.focus, .buttons.active, 
-.buttons.focus, .buttons:active.focus, 
-.buttons:active:focus, .buttons:focus, 
-.buttons.active:focus {
-    outline: none;
-    box-shadow: none;
-    color: #DDEDF4;
-    background-color: #1181B2;
-    border: #DDEDF4 solid 0.1995vw;
-    transition: 0ms;
-}
-
 /* The End!! */

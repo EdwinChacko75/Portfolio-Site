@@ -297,4 +297,63 @@ h1 span {
     border-width: 0.3325vw;
     width: 50vw;
 }
+
+
+/* Section 1.0 - Intrests */
+#intrests {
+    position: relative;
+    margin: 5% 8% 105% 7%;
+}
+#intrests-header {
+    text-align: center;
+    color: #DDEDF4;
+    font-size: 1.6625vw;
+    font-family: 'Newsreader', serif;
+    text-decoration: underline #DDEDF4;
+}
+#intrests-content {
+    position: absolute;
+    text-align: left;
+    text-indent: 3.2vw;
+    top: 10vw;
+    left: 15%;
+    right: 15%;
+    margin-right: 0%;
+    font-size: 1.33vw;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #DDEDF4;
+    padding: 0.9975vw;
+    border: #DDEDF4;
+    border-style: solid;
+    border-width: 0.3325vw;
+    background: rgb(221, 237, 244);
+    background: rgba(221, 237, 244, 0.3);
+}
+#sources {
+    position: absolute;
+    height: auto;
+    left: 15%;
+    right: 15%;
+    width: 70%;
+    top: 50vw;
+}
+#Audio {
+    margin-bottom: 10vw;
+}
+#Audio-header {
+    text-align: center;
+    color: #DDEDF4;
+    font-size: 1.6625vw;
+    font-family: 'Newsreader', serif;
+    text-decoration: underline #DDEDF4;
+}
+#narration {
+    width: 60vw;
+    height: auto;
+    margin-left: 19vw;
+    margin-right: 10vw;
+    border: #DDEDF4;
+    border-style: solid;
+    border-width: 0.1995vw;
+    border-radius: 1.33vw;}
 /* The End!! */
